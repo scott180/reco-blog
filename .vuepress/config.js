@@ -99,6 +99,7 @@ module.exports = {
                 {title:'eclipse',path:'eclipse'},
                 {title:'docker',path:'docker'},
                 {title:'markdown常用语法',path:'markdown常用语法'},
+                {title:'vuepress构建项目',path:'vuepress构建项目'},
                 {title:'gitlab、github绑定自定义域名',path:'gitlab、github绑定自定义域名'},
                 {title:'git平台docsify布署markdown文件',path:'git平台docsify布署markdown文件'},
                 {title:'gitlab、github、gitee布署mkdocs主题仓库',path:'gitlab、github、gitee布署mkdocs主题仓库'},
