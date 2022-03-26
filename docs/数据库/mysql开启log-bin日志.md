@@ -1,6 +1,6 @@
 ---
 title: Mysql开启log-bin日志
-date: 2020-01-06
+date: 2019-01-06
 tags:
  - mysql
  - 数据库

@@ -1,7 +1,7 @@
 module.exports = {
   "title": "无为徐生",
   "description": "",
-  "base": '/reco-blog/',
+  //"base": '/reco-blog/',
   "dest": ".vuepress/dist",
   "head": [
     [
@@ -26,6 +26,28 @@ module.exports = {
         "text": "主页",
         "link": "/",
         "icon": "reco-home"
+      },
+	  {
+        "text": "分类",
+        "icon": "reco-category",
+        "items": [
+          {
+            "text": "笔记",
+            "link": "/categories/笔记/",
+          },
+		  {
+            "text": "数据库",
+            "link": "/categories/数据库/",
+          },
+		  {
+            "text": "资料",
+            "link": "/categories/资料/",
+          },
+		  {
+            "text": "书法",
+            "link": "/categories/书法/",
+          },
+        ]
       },
       {
         "text": "文档",
