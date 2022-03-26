@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 个人博客
+heroText: 无为徐生
 tagline: 程序员笔记*书法练习轨迹
 # heroImage: /hero.png
 # heroImageStyle: {

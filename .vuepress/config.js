@@ -1,7 +1,7 @@
 module.exports = {
-  "title": "个人博客",
+  "title": "无为徐生",
   "description": "",
-  base: '/reco-blog/',
+  "base": '/reco-blog/',
   "dest": ".vuepress/dist",
   "head": [
     [
@@ -29,20 +29,12 @@ module.exports = {
       },
       {
         "text": "文档",
-        "icon": "reco-message",
+        "icon": "reco-document",
         "items": [
-          {
-            "text": "docs",
-            "link": "/docs/书法/"
-          },
-		  {
-            "text": "练习",
-            "link": "/docs/练习/"
-          },
-		  {
-            "text": "作者",
-            "link": "/docs/作者/"
-          }
+			{ text: '笔记',link: '/docs/笔记/note'}, 
+			{ text: '数据库', link: '/docs/数据库/mysqlNote'}, 
+			{ text: '资料', link: '/docs/资料/eclipse'}, 
+			{ text: '书法', link: '/docs/书法/古文诗词'}
         ]
       },
 	  {
@@ -65,41 +57,73 @@ module.exports = {
             "icon": "reco-home"
           },
 		  {
-            "text": "blog",
+            "text": "blog.xushufa.cn",
             "link": "https://blog.xushufa.cn",
-            "icon": "reco-message"
+            "icon": "reco-document"
           }
         ]
       }
     ],
-    "sidebar": {
-	   "/docs/书法/": [
-        "",
-        "书法名帖",
-        "灵飞经",
-        "多宝塔碑",
-        "《心经》书法",
-        "《兜沙经》书法",
-        "文徵明-小楷千字文",
-        "文徵明-小楷《草堂十志》"
-      ],
-	   "/docs/练习/": [
-        "",
-        "徐书法",
-        "笔名汉字频率分析",
-        "古文诗词",
-        "书法练习轨迹ReadMe",
-        "书法练习轨迹--明月几时有"
-      ],
-	  	"/docs/作者/": [
-        "无为徐生"
-      ],
-    },
+	subSidebar: 'auto',
+	// 侧边栏
+    sidebar: {
+          '/docs/笔记/': [{
+              title: '笔记',
+			  collapsable: true, // 可选的, 默认值是 true,
+              sidebarDepth: 2,   // 可选的, 默认值是 1
+              children: [
+                {title:'note',path:'note'},
+                {title:'java',path:'java'},
+                {title:'gitNote',path:'gitNote'},
+                {title:'linuxNote',path:'linuxNote-x'},
+              ]
+            }],
+		  '/docs/数据库/': [{
+              title: '数据库',
+			  collapsable: true, // 可选的, 默认值是 true,
+              sidebarDepth: 2,   // 可选的, 默认值是 1
+              children: [
+                {title:'mysqlNote',path:'mysqlNote'},
+                {title:'oracleNote',path:'oracleNote'},
+                {title:'redis',path:'redis'},
+                {title:'mongo',path:'mongo'},
+                {title:'数据库隔离级别',path:'数据库隔离级别'},
+                {title:'mysql开启log-bin日志',path:'mysql开启log-bin日志'},
+              ]
+            }],
+		   '/docs/资料/': [{
+              title: '资料',
+			  collapsable: true, // 可选的, 默认值是 true,
+              sidebarDepth: 2,   // 可选的, 默认值是 1
+              children: [
+                {title:'eclipse',path:'eclipse'},
+                {title:'docker',path:'docker'},
+                {title:'markdown常用语法',path:'markdown常用语法'},
+                {title:'gitlab、github绑定自定义域名',path:'gitlab、github绑定自定义域名'},
+                {title:'git平台docsify布署markdown文件',path:'git平台docsify布署markdown文件'},
+                {title:'gitlab、github、gitee布署mkdocs主题仓库',path:'gitlab、github、gitee布署mkdocs主题仓库'},
+              ]
+            }],
+		   '/docs/书法/': [{
+              title: '书法',
+			  collapsable: true, // 可选的, 默认值是 true,
+              sidebarDepth: 2,   // 可选的, 默认值是 1
+              children: [
+                {title:'古文诗词',path:'古文诗词'},
+                {title:'多宝塔碑',path:'多宝塔碑'},
+                {title:'《心经》书法',path:'《心经》书法'},
+                {title:'书法练习轨迹ReadMe',path:'书法练习轨迹ReadMe'},
+                {title:'无为徐生',path:'无为徐生'},
+                {title:'徐书法',path:'徐书法'},
+              ]
+            }]
+        },
+		
     "type": "blog",
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "博客"
+        "text": "分类"
       },
       "tag": {
         "location": 3,
@@ -114,7 +138,7 @@ module.exports = {
         "link": "https://xushufa.cn"
       },
       {
-        "title": "reco-calligraphy",
+        "title": "reco-blog",
         "desc": "A simple and beautiful vuepress Blog & Doc theme.",
         "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         "link": "https://github.com/scott180/reco-blog"
@@ -130,8 +154,7 @@ module.exports = {
     recordLink: 'http://beian.miit.gov.cn',
     cyberSecurityRecord: '浙公网安备 33011002016354号',
     cyberSecurityLink: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002016354',
-    startYear: '2022',
-	subSidebar: 'auto'
+    startYear: '2022'
   },
   "markdown": {
     "lineNumbers": true
