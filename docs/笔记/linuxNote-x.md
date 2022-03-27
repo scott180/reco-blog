@@ -17,7 +17,7 @@ categories:
 - [x]  2017.08.22--now
 `xyq` `linux` `note`
 
-> [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes/blob/master/linuxNote-x.md ) &ensp; [作业部落]( https://www.zybuluo.com/mdeditor ) &ensp; [CSDN]( https://me.csdn.net/xu180 ) &ensp; [马克飞象]( https://maxiang.io ) &ensp; [typora]( https://typora.io/#windows ) 
+>  [blog]( https://blog.xushufa.cn ) &ensp; [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes/blob/master/linuxNote-x.md ) &ensp; [作业部落]( https://www.zybuluo.com/mdeditor ) &ensp; [CSDN]( https://me.csdn.net/xu180 ) &ensp; [马克飞象]( https://maxiang.io ) &ensp; [typora]( https://typora.io/#windows ) 
 
 
 <h2 id="command"></h2>
@@ -1160,4 +1160,5 @@ linux虚拟机上传下载文件
 
 ==============================================================
 ```
+
 

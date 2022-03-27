@@ -65,25 +65,9 @@ module.exports = {
         "icon": "reco-date"
       },
       {
-        "text": "去看看",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "github",
-            "link": "https://github.com/scott180/reco-blog",
-            "icon": "reco-github"
-          },
-		  {
-            "text": "calligraphy",
-            "link": "https://xushufa.cn",
-            "icon": "reco-home"
-          },
-		  {
-            "text": "blog.xushufa.cn",
-            "link": "https://blog.xushufa.cn",
-            "icon": "reco-document"
-          }
-        ]
+        "text": "关于我",
+		"link": '/docs/关于我',
+        "icon": "reco-account",
       }
     ],
 	subSidebar: 'auto',
@@ -171,7 +155,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "",
+    "author": "无为徐生",
     "authorAvatar": "/template.png",
 	record: '浙ICP备2022008289号-1',
     recordLink: 'http://beian.miit.gov.cn',

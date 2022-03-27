@@ -115,20 +115,36 @@ cd -
 
 ---
 
+注意路径配置问题：
+
+- 1、如果要发布路径为用户名+项目名
+
+```js
+如访问地址为 `https://scott180.github.io/reco-blog` 则
+
+`docs\.vuepress\config.js` 配置 `base` 字段为项目名 `reco-blog`
+
+`deploy.sh` 配置 `git push -f git@github.com:scott180/reco-calligraphy.git master:gh-pages`
+
+```
+
+- 2、如果要绑定域名
+
+```js
+如访问地址为 `http://reco-blog.xushufa.cn/` 则
+
+`docs\.vuepress\config.js` 配置 `base` 字段需注释掉
+
+`deploy.sh` 配置 
+echo 'reco-blog.xushufa.cn' > CNAME
+`git push -f git@github.com:scott180/reco-calligraphy.git master:gh-pages`
+
+
+```
+
+
+
 ### 1.3 问题
-
-> 如出现样式丢失，css文件不能加载问题，需要在 `docs\.vuepress\config.js` 配置 `base` 字段
-
-```
-module.exports = {
-  // 页面标题
-  title: '个人博客',
-  // 网页描述
-  description: '程序员笔记*书法练习记录',
-  base: '/vuepress-blog/',
-```
-
----
 
 > vuepress 底部添加网站备案号：ICP备案号与公安备案号  [富文本 footer]( https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E5%AF%8C%E6%96%87%E6%9C%AC-footer )
 
@@ -139,6 +155,19 @@ home: true
 
 ::: slot footer
 MIT Licensed | Copyright © 2018-present [Evan You](https://github.com/yyx990803)
+:::
+
+```
+
+---
+
+```
+---
+home: true
+---
+
+::: slot footer
+Copyright © 2022 · xushufa.cn · 无为徐生 <br/>  [浙ICP备2022008289号-1]( http://beian.miit.gov.cn/ ) <img src="/ba.png" width="20"> [浙公网安备 33011002016354号]( http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002016354 ) 
 :::
 
 ```
@@ -167,8 +196,6 @@ npm run deploy
 使用vuepress-theme-reco构建的博客。
 
 [github]( https://github.com/scott180/reco-blog ) &ensp; [reco-blog]( https://scott180.github.io/reco-blog )  &ensp; [reco-calligraphy]( https://scott180.github.io/reco-calligraphy )
-
- 
 
 ### 2.1 安装
 
