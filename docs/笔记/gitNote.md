@@ -8,8 +8,6 @@ categories:
  - 笔记
 ---
 
-# git笔记
-
 
 > [blog]( https://blog.xushufa.cn ) &ensp; [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) &ensp; [github]( https://github.com/scott180 )   
 

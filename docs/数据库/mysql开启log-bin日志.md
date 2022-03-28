@@ -8,7 +8,6 @@ categories:
  - 数据库
 ---
 
-# Mysql开启log-bin日志  
 
 > 一 、logbin日志 记录新增、更新、删除的sql [参考1]( https://www.cnblogs.com/kerrycode/p/6610874.html ) [参考2]( https://www.cnblogs.com/handle/p/9761702.html )
 

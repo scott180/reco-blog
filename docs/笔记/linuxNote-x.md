@@ -7,7 +7,6 @@ categories:
  - 笔记
 ---
 
-# linux笔记-xyq
 
 *   [1、命令](#command)
 

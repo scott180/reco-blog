@@ -8,7 +8,6 @@ categories:
  - 数据库
 ---
 
-# oracle笔记
 
 ## 常用命令
 

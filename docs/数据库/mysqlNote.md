@@ -8,7 +8,6 @@ categories:
  - 数据库
 ---
 
-# mysql
 
 ## 1.安装mysql
 

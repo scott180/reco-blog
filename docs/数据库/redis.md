@@ -8,7 +8,6 @@ categories:
  - 数据库
 ---
 
-# redis
 
 ## 安装 
 

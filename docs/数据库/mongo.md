@@ -8,7 +8,6 @@ categories:
  - 数据库
 ---
 
-# mongo
   
 *   [1、说明](#introducer)
 *   [2、增删改查](#crud)

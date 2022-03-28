@@ -8,7 +8,6 @@ categories:
  - 资料
 ---
 
-# gitlab、github、gitee布署mkdocs主题仓库
 
 `网址` &ensp; [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://vuepress-blog.xushufa.cn )
 
