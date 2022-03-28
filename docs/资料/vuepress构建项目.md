@@ -142,8 +142,7 @@ echo 'reco-blog.xushufa.cn' > CNAME
 ```
 
 
-
-### 1.3 问题
+### 1.3 备案号
 
 > vuepress 底部添加网站备案号：ICP备案号与公安备案号  [富文本 footer]( https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E5%AF%8C%E6%96%87%E6%9C%AC-footer )
 
@@ -304,6 +303,96 @@ module.exports = {
 
 ```
 
+
+---
+
+
+### 2.3 插件 
+
+参考 [插件广场]( https://vuepress-theme-reco.recoluan.com/views/other/recommend.html ) &ensp; [plugin-medium-zoom]( https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-medium-zoom.html#%E5%AE%89%E8%A3%85 )  &ensp; [medium-zoom]( https://vuepress-community.netlify.app/zh/plugins/medium-zoom/#%E5%AE%89%E8%A3%85 )
+
+> 图片放大
+
+```
+yarn add -D @vuepress/plugin-medium-zoom
+# OR npm install -D @vuepress/plugin-medium-zoom
+
+
+module.exports = {
+  plugins: {
+    '@vuepress/medium-zoom': {
+      selector: 'img.zoom-custom-imgs',
+      // medium-zoom options here
+      // See: https://github.com/francoischalifour/medium-zoom#options
+      options: {
+        margin: 16
+      }
+    }
+  }
+}
+```
+
+
+---
+
+
+```
+npm install -D vuepress-plugin-medium-zoom
+
+
+// .vuepress/config.js
+module.exports = {
+  plugins: [
+    [
+      'vuepress-plugin-medium-zoom',
+      {
+        selector: '.my-wrapper .my-img',
+        delay: 1000,
+        options: {
+          margin: 24,
+          background: '#BADA55',
+          scrollOffset: 0,
+        },
+      },
+    ],
+  ],
+}
+```
+
+---
+
+
+> 默认随机展示名人名句
+
+参考 [vuepress-plugin-boxx]( https://github.com/zpj80231/vuepress-plugin-boxx )
+
+```
+在文件package.json中的devDependencies下加入"vuepress-plugin-boxx": "0.0.7"：
+
+
+"devDependencies": {
+    "vuepress-plugin-boxx": "0.0.7"
+}
+
+```
+
+```
+在 vuepress 的config.js中配置plugins：
+
+"plugins": [
+    ["vuepress-plugin-boxx"]
+]
+
+```
+
+```
+npm install
+
+在文档标题前一行添加 <Boxx/>
+
+
+```
+
 ---
 
 > 主要命令
@@ -321,4 +410,5 @@ npm run deploy
 ```
 
 ---
+
 
