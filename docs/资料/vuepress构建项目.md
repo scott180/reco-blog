@@ -2,6 +2,7 @@
 title: vuepress构建项目
 date: 2022-03-26
 tags:
+ - git
  - vuepress
 categories:
  - 资料
@@ -114,7 +115,9 @@ cd -
 
 ---
 
-注意路径配置问题：
+
+
+> 注意路径配置问题：
 
 - 1、如果要发布路径为用户名+项目名
 
@@ -140,6 +143,41 @@ echo 'reco-blog.xushufa.cn' > CNAME
 
 
 ```
+
+---
+
+
+
+> github Actions pages build and deployment 报错
+
+```
+本地执行deploy正常，但是github的Actions报错了。
+
+错误内容如下：
+Deployment request failed for 5a3201f6016e6e078f0f3c46eb4132a3d9014bdd due to in progress deployment. Please cancel 7e10a83b419c464b908a13787a0b0bfe39cc1ca7 first or wait for it to
+
+{
+    "$id": "1",
+    "innerException": null,
+    "message": "The user 'System:PublicAccess;aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa' is not authorized to access this resource.",
+    "typeName": "Microsoft.TeamFoundation.Framework.Server.UnauthorizedRequestException, Microsoft.TeamFoundation.Framework.Server",
+    "typeKey": "UnauthorizedRequestException",
+    "errorCode": 0,
+    "eventId": 3000
+}
+
+```
+
+
+```
+
+解决方法：
+1、点击 Re-run all jobs 再试一次。
+2、本地vuepress缓存影响，将dist目录删除，重新deploy。
+3、可能是SSH key有问题，换一下，重新deploy。
+
+```
+
 
 
 ### 1.3 备案号
@@ -410,5 +448,6 @@ npm run deploy
 ```
 
 ---
+
 
 
