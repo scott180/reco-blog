@@ -204,6 +204,27 @@ git push --all --force
  
 ```
 
+
+```
+
+创建一个空白内容的分支json
+
+// 创建新分支
+git checkout --orphan json
+
+// 删除所有文件
+git rm -rf .
+
+// 创建新文件后，全部提交
+git add .
+git commit -m "json"
+
+// 推送
+git push
+git push --set-upstream origin json
+
+```
+
 ```vb
 修改分支名称 https://www.jianshu.com/p/cc740394faf5
 
@@ -485,4 +506,5 @@ https://blog.csdn.net/Maxiao1204/article/details/81476618
 这里更改ssh 路径的时候，要把上面的“使用代理服务器” 勾打上，点击应用，再确定
 
 ```
+
 
