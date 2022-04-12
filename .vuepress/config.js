@@ -40,8 +40,8 @@ module.exports = {
             "link": "/categories/数据库/",
           },
 		  {
-            "text": "资料",
-            "link": "/categories/资料/",
+            "text": "java",
+            "link": "/categories/java/",
           },
 		  {
             "text": "书法",
@@ -55,7 +55,7 @@ module.exports = {
         "items": [
 			{ text: '笔记',link: '/docs/笔记/note'}, 
 			{ text: '数据库', link: '/docs/数据库/mysqlNote'}, 
-			{ text: '资料', link: '/docs/资料/eclipse'}, 
+			{ text: 'java', link: '/docs/java/资料/javaNote'}, 
 			{ text: '书法', link: '/docs/书法/古文诗词'}
         ]
       },
@@ -73,17 +73,35 @@ module.exports = {
 	subSidebar: 'auto',
 	// 侧边栏
     sidebar: {
-          '/docs/笔记/': [{
+          '/docs/笔记/': [		  
+		  {
               title: '笔记',
 			  collapsable: true, // 可选的, 默认值是 true,
               sidebarDepth: 2,   // 可选的, 默认值是 1
               children: [
                 {title:'note',path:'note'},
-                {title:'java',path:'java'},
                 {title:'gitNote',path:'gitNote'},
                 {title:'linuxNote',path:'linuxNote-x'},
-              ]
-            }],
+				
+              ]					
+            },
+			{
+			  title: '资料',
+			  collapsable: true, // 可选的, 默认值是 true,
+			  sidebarDepth: 2,   // 可选的, 默认值是 1
+			  children: [
+				{title:'eclipse',path:'资料/eclipse'},
+				{title:'docker',path:'资料/docker'},
+				{title:'nginx笔记',path:'资料/nginx笔记'},
+				{title:'markdown常用语法',path:'资料/markdown常用语法'},
+				{title:'vuepress构建项目',path:'资料/vuepress构建项目'},
+				{title:'gitlab、github绑定自定义域名',path:'资料/gitlab、github绑定自定义域名'},
+				{title:'git平台docsify布署markdown文件',path:'资料/git平台docsify布署markdown文件'},
+				{title:'gitlab、github、gitee布署mkdocs主题仓库',path:'资料/gitlab、github、gitee布署mkdocs主题仓库'},
+				
+			  ]
+		   }
+		   ],
 		  '/docs/数据库/': [{
               title: '数据库',
 			  collapsable: true, // 可选的, 默认值是 true,
@@ -97,21 +115,31 @@ module.exports = {
                 {title:'mysql开启log-bin日志',path:'mysql开启log-bin日志'},
               ]
             }],
-		   '/docs/资料/': [{
-              title: '资料',
-			  collapsable: true, // 可选的, 默认值是 true,
-              sidebarDepth: 2,   // 可选的, 默认值是 1
-              children: [
-                {title:'eclipse',path:'eclipse'},
-                {title:'docker',path:'docker'},
-                {title:'nginx笔记',path:'nginx笔记'},
-                {title:'markdown常用语法',path:'markdown常用语法'},
-                {title:'vuepress构建项目',path:'vuepress构建项目'},
-                {title:'gitlab、github绑定自定义域名',path:'gitlab、github绑定自定义域名'},
-                {title:'git平台docsify布署markdown文件',path:'git平台docsify布署markdown文件'},
-                {title:'gitlab、github、gitee布署mkdocs主题仓库',path:'gitlab、github、gitee布署mkdocs主题仓库'},
-              ]
-            }],
+			'/docs/java/': [
+			  {
+				  title: '教程',
+				  collapsable: true, // 可选的, 默认值是 true,
+				  sidebarDepth: 2,   // 可选的, 默认值是 1
+				  children: [
+					{title:'java介绍',path:'教程/java介绍'},
+					{title:'jquery笔记',path:'教程/jquery笔记'},
+					{title:'mybatis笔记',path:'教程/mybatis笔记'},
+					{title:'springmvc笔记',path:'教程/springmvc笔记'},
+					{title:'servlet-jsp课程学习',path:'教程/servlet-jsp课程学习'},
+				  ]					
+				},
+				{
+				  title: '资料',
+				  collapsable: true, // 可选的, 默认值是 true,
+				  sidebarDepth: 2,   // 可选的, 默认值是 1
+				  children: [
+					{title:'javaNote',path:'资料/javaNote'},
+					{title:'java资料集',path:'资料/java资料集'},
+					{title:'布隆过滤器',path:'资料/布隆过滤器'},
+				  ]					
+				}
+			
+		   ],
 		   '/docs/书法/': [{
               title: '书法',
 			  collapsable: true, // 可选的, 默认值是 true,

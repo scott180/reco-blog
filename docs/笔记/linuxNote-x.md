@@ -3,6 +3,7 @@ title: linux笔记
 date: 2017-08-22
 tags:
  - linux
+ - 笔记
 categories:
  - 笔记
 ---

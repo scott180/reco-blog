@@ -4,6 +4,7 @@ date: 2018-09-03
 tags:
  - git
  - github
+ - 笔记
 categories:
  - 笔记
 ---

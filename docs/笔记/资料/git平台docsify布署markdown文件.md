@@ -6,7 +6,7 @@ tags:
  - docsify
  - markdown
 categories:
- - 资料
+ - 笔记
 ---
 
 

@@ -6,7 +6,7 @@ tags:
  - vuepress
  - markdown
 categories:
- - 资料
+ - 笔记
 ---
 
 

@@ -5,7 +5,7 @@ tags:
  - nginx
  - linux
 categories:
- - 资料
+ - 笔记
 ---
 
 
