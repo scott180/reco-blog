@@ -5,7 +5,7 @@ tags:
  - linux
  - 笔记
 categories:
- - 笔记
+ - 资料
 ---
 
 

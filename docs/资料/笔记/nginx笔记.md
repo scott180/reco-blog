@@ -4,8 +4,9 @@ date: 2022-03-30
 tags:
  - nginx
  - linux
-categories:
  - 笔记
+categories:
+ - 资料
 ---
 
 

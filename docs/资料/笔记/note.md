@@ -11,7 +11,7 @@ tags:
  - 日常
  - 笔记
 categories:
- - 笔记
+ - 资料
 ---
 
 # [note]( https://gitlab.com/xuyq123/mynotes/-/blob/master/note.md )
