@@ -1,5 +1,5 @@
 ---
-title: servlet-jsp课程学习
+title: servlet-jsp学习
 date: 2016-09-01
 tags:
  - jsp
