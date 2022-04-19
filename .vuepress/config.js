@@ -56,15 +56,15 @@ module.exports = {
         "text": "资料",
         "icon": "reco-document",
         "items": [
-			  { text: 'linuxNote', link: '/docs/资料/笔记/linuxNote-x'}, 
 			  { text: 'gitNote', link: '/docs/资料/笔记/gitNote'}, 
+			  { text: 'linuxNote', link: '/docs/资料/笔记/linuxNote-x'}, 
 			  { text: '本地安装zookeeper', link: '/docs/资料/文档/本地安装zookeeper'}, 
 			  { text: 'vuepress构建项目', link: '/docs/资料/文档/vuepress构建项目'}, 
         ]		
       },
 	  {
         "text": "java",
-        "icon": "reco-document",
+        "icon": "reco-api",
         "items": [
 			  { text: 'java介绍', link: '/docs/java/教程/java介绍'}, 
 			  { text: 'SpringCloud入门', link: '/docs/java/教程/SpringCloud入门'}, 
@@ -76,7 +76,7 @@ module.exports = {
       },
 	  {
         "text": "书法",
-        "icon": "reco-document",
+        "icon": "reco-blog",
         "items": [
 			  { text: '多宝塔碑', link: '/docs/书法/书法/多宝塔碑'}, 
 			  { text: '无为徐生', link: '/docs/书法/练习/无为徐生'}, 
@@ -215,11 +215,11 @@ module.exports = {
     "type": "blog",
     "blogConfig": {
       "category": {
-        "location": 2,
+        "location": 3,
         "text": "分类"
       },
       "tag": {
-        "location": 3,
+        "location": 2,
         "text": "标签"
       }
     },
