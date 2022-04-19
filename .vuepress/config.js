@@ -21,6 +21,13 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+	valineConfig: {
+		appId: 'In1BQCN8XdwnYBgPYnSi4r1W-gzGzoHsz',// your appId
+		appKey: 'nVqtDyPE9OClqUri8YcHyRaR',// your appKey
+		visitor: true,
+		showComment: false,
+		// path = window.location.href
+	},  
     "nav": [
       {
         "text": "主页",
@@ -186,7 +193,7 @@ module.exports = {
     "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
-    "lastUpdated": "Last Updated",
+    "lastUpdated": "上次更新",
     "author": "无为徐生",
     "authorAvatar": "/template.png",
 	record: '浙ICP备2022008289号-1',
@@ -207,6 +214,24 @@ module.exports = {
           separator: "-", // Separator of the slug, default: '-'
         },
       ],
-  ]
+	  [
+	  '@vuepress/last-updated',
+	  {
+		transformer: (timestamp, lang) => {
+		  // 不要忘了安装 moment
+		  const moment = require('moment')
+		  moment.locale(lang)
+		  return moment(timestamp).format('YYYY-MM-DD HH:mm:ss');
+		}
+	  }
+	  ]
+  ],
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+	  title: '无为徐生',
+      description: '程序员笔记*书法练习轨迹',
+    }
+  }
 
 }
