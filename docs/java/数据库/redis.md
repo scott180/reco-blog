@@ -2,10 +2,11 @@
 title: redis
 date: 2019-01-01
 tags:
+ - java
  - redis
  - 数据库
 categories:
- - 数据库
+ - java
 ---
 
 

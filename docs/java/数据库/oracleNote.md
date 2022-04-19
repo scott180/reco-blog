@@ -2,10 +2,11 @@
 title: oracleNote
 date: 2019-01-03
 tags:
+ - java
  - oracle
  - 数据库
 categories:
- - 数据库
+ - java
 ---
 
 

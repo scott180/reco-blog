@@ -43,10 +43,6 @@ module.exports = {
             "link": "/categories/资料/",
           },
 		  {
-            "text": "数据库",
-            "link": "/categories/数据库/",
-          },
-		  {
             "text": "java",
             "link": "/categories/java/",
           },
@@ -56,15 +52,38 @@ module.exports = {
           },
         ]
       },
-      {
-        "text": "文档",
+	  {
+        "text": "资料",
         "icon": "reco-document",
         "items": [
-			{ text: '资料',link: '/docs/资料/笔记/note'}, 
-			{ text: '数据库', link: '/docs/数据库/mysqlNote'}, 
-			{ text: 'java', link: '/docs/java/资料/javaNote'}, 
-			{ text: '书法', link: '/docs/书法/古文诗词'}
-        ]
+			  { text: 'linuxNote', link: '/docs/资料/笔记/linuxNote-x'}, 
+			  { text: 'gitNote', link: '/docs/资料/笔记/gitNote'}, 
+			  { text: '本地安装zookeeper', link: '/docs/资料/文档/本地安装zookeeper'}, 
+			  { text: 'vuepress构建项目', link: '/docs/资料/文档/vuepress构建项目'}, 
+        ]		
+      },
+	  {
+        "text": "java",
+        "icon": "reco-document",
+        "items": [
+			  { text: 'java介绍', link: '/docs/java/教程/java介绍'}, 
+			  { text: 'SpringCloud入门', link: '/docs/java/教程/SpringCloud入门'}, 
+			  { text: 'javaNote', link: '/docs/java/资料/javaNote'}, 
+			  { text: '排序算法', link: '/docs/java/资料/排序算法'}, 
+			  { text: 'mysqlNote', link: '/docs/java/数据库/mysqlNote'}, 
+			  { text: 'oracleNote', link: '/docs/java/数据库/oracleNote'}, 
+        ]		
+      },
+	  {
+        "text": "书法",
+        "icon": "reco-document",
+        "items": [
+			  { text: '多宝塔碑', link: '/docs/书法/书法/多宝塔碑'}, 
+			  { text: '无为徐生', link: '/docs/书法/练习/无为徐生'}, 
+			  { text: '古文诗词', link: '/docs/书法/练习/古文诗词'}, 
+			  { text: '书法练习轨迹ReadMe', link: '/docs/书法/练习/书法练习轨迹ReadMe'}, 
+			  { text: '有感之杂说', link: '/docs/书法/轨迹/有感之杂说'}, 
+        ]		
       },
 	  {
         "text": "时间轴",
@@ -105,23 +124,10 @@ module.exports = {
 				{title:'gitlab、github绑定自定义域名',path:'文档/gitlab、github绑定自定义域名'},
 				{title:'git平台docsify布署markdown文件',path:'文档/git平台docsify布署markdown文件'},
 				{title:'gitlab、github、gitee布署mkdocs主题仓库',path:'文档/gitlab、github、gitee布署mkdocs主题仓库'},
-				
 			  ]
-		   }
+		   }		   
+		   
 		   ],
-		  '/docs/数据库/': [{
-              title: '数据库',
-			  collapsable: true, // 可选的, 默认值是 true,
-              sidebarDepth: 2,   // 可选的, 默认值是 1
-              children: [
-                {title:'mysqlNote',path:'mysqlNote'},
-                {title:'oracleNote',path:'oracleNote'},
-                {title:'redis',path:'redis'},
-                {title:'mongo',path:'mongo'},
-                {title:'数据库隔离级别',path:'数据库隔离级别'},
-                {title:'mysql开启log-bin日志',path:'mysql开启log-bin日志'},
-              ]
-            }],
 			'/docs/java/': [
 			  {
 				  title: '教程',
@@ -147,22 +153,63 @@ module.exports = {
 					{title:'java资料集',path:'资料/java资料集'},
 					{title:'布隆过滤器',path:'资料/布隆过滤器'},
 				  ]					
+				},
+				{
+				  title: '数据库',
+				  collapsable: true, // 可选的, 默认值是 true,
+				  sidebarDepth: 2,   // 可选的, 默认值是 1
+				  children: [
+					{title:'mysqlNote',path:'数据库/mysqlNote'},
+					{title:'oracleNote',path:'数据库/oracleNote'},
+					{title:'redis',path:'数据库/redis'},
+					{title:'mongo',path:'数据库/mongo'},
+					{title:'数据库隔离级别',path:'数据库/数据库隔离级别'},
+					{title:'mysql开启log-bin日志',path:'数据库/mysql开启log-bin日志'},
+				  ]
 				}
 			
 		   ],
-		   '/docs/书法/': [{
-              title: '书法',
+		   '/docs/书法/': [
+			{
+			  title: '书法',
 			  collapsable: true, // 可选的, 默认值是 true,
-              sidebarDepth: 2,   // 可选的, 默认值是 1
-              children: [
-                {title:'古文诗词',path:'古文诗词'},
-                {title:'多宝塔碑',path:'多宝塔碑'},
-                {title:'《心经》书法',path:'《心经》书法'},
-                {title:'书法练习轨迹ReadMe',path:'书法练习轨迹ReadMe'},
-                {title:'无为徐生',path:'无为徐生'},
-                {title:'徐书法',path:'徐书法'},
-              ]
-            }]
+			  sidebarDepth: 2,   // 可选的, 默认值是 1
+			  children: [
+				{ title: '书法名帖', path: '书法/书法名帖'}, 
+				{ title: '灵飞经', path: '书法/灵飞经'},
+				{ title: '多宝塔碑', path: '书法/多宝塔碑'},
+				{ title: '《心经》书法', path: '书法/《心经》书法'},
+				{ title: '《兜沙经》书法', path: '书法/《兜沙经》书法'}, 
+				{ title: '文徵明小楷《千字文》', path: '书法/文徵明小楷《千字文》'},
+				{ title: '文徵明小楷《草堂十志》', path: '书法/文徵明小楷《草堂十志》'}
+	
+			  ]					
+			},
+			{
+			  title: '练习',
+			  collapsable: true, // 可选的, 默认值是 true,
+			  sidebarDepth: 2,   // 可选的, 默认值是 1
+			  children: [
+				{ title: '徐书法', path: '练习/徐书法'}, 
+				{ title: '无为徐生', path: '练习/无为徐生'},
+				{ title: '古文诗词', path: '练习/古文诗词'}, 
+				{ title: '笔名汉字频率分析', path: '练习/笔名汉字频率分析'},
+				{ title: '书法练习轨迹ReadMe', path: '练习/书法练习轨迹ReadMe'},
+				{ title: '书法练习轨迹--明月几时有', path: '练习/书法练习轨迹--明月几时有'}
+			  ]					
+			},
+			{
+			  title: '轨迹',
+			  collapsable: true, // 可选的, 默认值是 true,
+			  sidebarDepth: 2,   // 可选的, 默认值是 1
+			  children: [
+				{ title: '自序', path: '轨迹/自序'}, 
+				{ title: '诗词杂句', path: '轨迹/诗词杂句'}, 
+				{ title: '有感之杂说', path: '轨迹/有感之杂说'}
+			  ]
+			}
+		   
+		   ]
         },
 		
     "type": "blog",

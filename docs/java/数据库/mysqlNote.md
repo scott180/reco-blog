@@ -2,10 +2,11 @@
 title: mysqlNote
 date: 2019-01-04
 tags:
+ - java
  - mysql
  - 数据库
 categories:
- - 数据库
+ - java
 ---
 
 

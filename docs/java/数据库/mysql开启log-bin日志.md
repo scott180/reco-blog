@@ -2,10 +2,11 @@
 title: Mysql开启log-bin日志
 date: 2019-01-06
 tags:
+ - java
  - mysql
  - 数据库
 categories:
- - 数据库
+ - java
 ---
 
 

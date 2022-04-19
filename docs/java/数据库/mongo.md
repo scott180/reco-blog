@@ -2,10 +2,11 @@
 title: mongo
 date: 2019-01-02
 tags:
+ - java
  - mongo
  - 数据库
 categories:
- - 数据库
+ - java
 ---
 
   
