@@ -94,7 +94,7 @@ module.exports = {
       },
       {
         "text": "关于我",
-		"link": '/docs/书法/练习/关于我',
+		"link": '/docs/关于我',
         "icon": "reco-account",
       }
     ],
