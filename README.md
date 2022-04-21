@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 无为徐生
-tagline: 程序员笔记*书法练习轨迹
+tagline: 生活随笔*编程笔记*书法练习轨迹
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
