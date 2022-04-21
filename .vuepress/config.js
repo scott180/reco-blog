@@ -83,7 +83,7 @@ module.exports = {
 			  { text: '多宝塔碑', link: '/docs/书法/书法/多宝塔碑'}, 
 			  { text: '无为徐生', link: '/docs/书法/练习/无为徐生'}, 
 			  { text: '古文诗词', link: '/docs/书法/练习/古文诗词'}, 
-			  { text: '书法练习轨迹ReadMe', link: '/docs/书法/练习/书法练习轨迹ReadMe'}, 
+			  { text: '书法练习轨迹', link: '/docs/书法/练习/书法练习轨迹ReadMe'}, 
 			  { text: '有感之杂说', link: '/docs/书法/轨迹/有感之杂说'}, 
         ]		
       },

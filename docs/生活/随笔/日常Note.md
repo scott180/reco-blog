@@ -2,10 +2,11 @@
 title: 日常Note
 date: 2022-01-01
 tags:
- - windows
- - notepadd
+ - 生活
  - 日常
  - 随笔
+ - windows
+ - notepadd
 categories:
  - 生活
 ---
