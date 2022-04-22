@@ -263,7 +263,7 @@ module.exports = {
     "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
-    "lastUpdated": "上次更新",
+    "lastUpdated": "最近更新",
     "author": "无为徐生",
     "authorAvatar": "/template.png",
 	record: '浙ICP备2022008289号-1',
