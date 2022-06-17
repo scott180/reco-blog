@@ -37,7 +37,7 @@ module.exports = {
 	  {
         "text": "目录",
         "link": "/docs/目录",
-        "icon": "reco-home"
+        "icon": "reco-menu"
       },
 	  {
         "text": "分类",
@@ -255,11 +255,11 @@ module.exports = {
     "type": "blog",
     "blogConfig": {
       "category": {
-        "location": 3,
+        "location": 4,
         "text": "分类"
       },
       "tag": {
-        "location": 2,
+        "location": 3,
         "text": "标签"
       }
     },
