@@ -35,6 +35,11 @@ module.exports = {
         "icon": "reco-home"
       },
 	  {
+        "text": "目录",
+        "link": "/docs/目录",
+        "icon": "reco-home"
+      },
+	  {
         "text": "分类",
         "icon": "reco-category",
         "items": [

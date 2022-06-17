@@ -98,7 +98,7 @@ docker rm 【容器id】
 
 ```
 
-```
+```js
 提交镜像
 docker commit 678ae48535b1 ucp:1.1.7
 docker commit  -m "ucp1.1.7--20180428" -a "xyq" f54f18474f15 ucp:1.1.7
@@ -109,7 +109,7 @@ docker commit  -m "ucp1.1.7--20180428" -a "xyq" f54f18474f15 ucp:1.1.7
 
 ```
 
-```
+```sql
 上传到170.18.10.40镜像仓库
 	登陆 docker login http://170.18.10.40 
 		 docker login http://registry.saiwentech.com:35000
@@ -138,8 +138,8 @@ docker commit  -m "ucp1.1.7--20180428" -a "xyq" f54f18474f15 ucp:1.1.7
 	docker pull registry.saiwentech.com:35000/library/mysql:5.7.7_saiwen2
 ```
 
-* * *
-```
+
+```vb
 参数设置
 /mnt/opt/data/ucp1.1.7/config/ucp/antx.properties
 
@@ -165,8 +165,6 @@ sql_mode='NO_ENGINE_SUBSTITUTION'
 
 ## 2、docker安装问题
 
-
-
 ###  2.1、使用 yum 安装
 
 ```
@@ -180,7 +178,7 @@ Docker 要求 CentOS 系统的内核版本高于 3.10 ，查看本页面的前�
 [root@runoob ~]# service docker start
 ```
 
-```
+```json
 镜像加速
 
  /etc/docker/daemon.json
@@ -207,7 +205,7 @@ sudo systemctl enable docker.service
 
 ```
 
-```
+```sh
 安装docker，启动不成功，报错信息  
 https://www.2cto.com/net/201803/730799.html
 
@@ -240,8 +238,7 @@ sudo systemctl restart docker
 
 ```
 
-```
-
+```c
 Ubuntu 16.04（LTS）安装dockerI
 
 $ sudo apt-get update
@@ -313,7 +310,7 @@ You need to upgrade to a more recent version to use the version 2 format configu
  
 ### 2.4、阿里云镜像push
 
-```
+```c
 
 * 镜像上传阿里云 cr.console.aliyun.com
 
@@ -330,7 +327,7 @@ You need to upgrade to a more recent version to use the version 2 format configu
 
 ### 2.5、测试 run 运行容器
 
-```
+```js
 docker run --name base -tid 170.18.10.40/library/baseenv:base /bin/bash
 
 dockcer pull tomcat:6.0.53
@@ -352,7 +349,7 @@ MYSQL_ROOT_PASSWORD=Saiwen.web123 -d registry.cn-hangzhou.aliyuncs.com/saiwen/uc
 
 ## 3、其他
 
-```
+```c
 删除镜像
 root@SZX1000041894:/home# docker tag centos 10.229.43.217:4000/xcb/centos
 root@SZX1000041894:/home# docker push 10.229.43.217:4000/xcb/centos
@@ -382,7 +379,7 @@ curl -I -X DELETE http://170.18.10.40/v2/ucpplus-b/ucp/manifests/sha256:2ddac3e0
 
 ```
 
-```
+```sh
   923  cd /mnt/home/mobile/ucp2.0/install/
   924  tar -xzvf coreplus.tar.gz 
   925  docker images
@@ -466,7 +463,7 @@ curl -I -X DELETE http://170.18.10.40/v2/ucpplus-b/ucp/manifests/sha256:2ddac3e0
  
  
  
-``` 
+```js
  停止容器
  docker stop mobile_ucp_db_1 mobile_ucp_mongo_db_1 mobile_ucp_1
  
