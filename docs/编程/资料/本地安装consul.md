@@ -1,5 +1,5 @@
 ---
-title: window安装consul
+title: 本地安装consul
 date: 2020-05-14
 tags:
  - consul
@@ -48,4 +48,3 @@ pause
 http://www.ityouknow.com/springcloud/2018/07/20/spring-cloud-consul.html
 
 ```
-
