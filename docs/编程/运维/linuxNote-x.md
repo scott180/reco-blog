@@ -12,7 +12,7 @@ categories:
 - [x]  2017.08.22--now
 `xyq` `linux` `note`
 
->  [blog]( https://blog.xushufa.cn ) &ensp; [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) 
+> [blog]( https://blog.xushufa.cn ) &ensp; [gitlab]( https://gitlab.com/xuyq123/mynotes ) &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) 
 
 
 ## 1 常用命令
