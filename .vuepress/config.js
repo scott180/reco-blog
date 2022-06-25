@@ -129,6 +129,7 @@ module.exports = {
 			  sidebarDepth: 2,   // 可选的, 默认值是 1
 			  children: [
 				{title:'如何练好书法',path:'文档/如何练好书法'},
+				{title:'文言文翻译网络流行语',path:'文档/文言文翻译网络流行语'},
 				{title:'安徽电信免费流量获取方法',path:'文档/安徽电信免费流量获取方法'},
 				{title:'安徽电信-流量来啦-每日必点',path:'文档/安徽电信-流量来啦-每日必点'},
 				{title:'治疗失眠无限循环的有趣动图',path:'文档/治疗失眠无限循环的有趣动图'},
@@ -203,6 +204,7 @@ module.exports = {
 				{title:'本地安装zookeeper',path:'资料/本地安装zookeeper'},
 				{title:'markdown常用语法',path:'资料/markdown常用语法'},
 				{title:'window安装RabbitMQ',path:'资料/window安装RabbitMQ'},
+				{title:'pagefile.sys有几十个G，太大怎么办',path:'资料/pagefile.sys有几十个G，太大怎么办'},
 			  ]
 			}
 			
