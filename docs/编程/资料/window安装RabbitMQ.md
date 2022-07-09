@@ -23,7 +23,6 @@ categories:
 - 打开`cmd`命令框，输入 `erl -version`  验证
 
 
-
 ## 2、安装 RabbitMQ
 
 > 安装 rabbitmq-server-3.8.2.exe 
@@ -54,13 +53,13 @@ D:\ProgramFiles\rabbitmq-server-3.8.2\rabbitmq_server-3.8.2\sbin>rabbitmq-server
 
 ---
 
-```
+```sql
 参考
 https://blog.csdn.net/lihua5419/article/details/93006834
 https://blog.csdn.net/zhm3023/article/details/82217222
 
-RabbitMQ教程 https://blog.csdn.net/hellozpc/article/details/81436980
-erlang官网  https://www.erlang.org/downloads
-rabbitmq官网 https://www.rabbitmq.com/download.html
+RabbitMQ教程  https://blog.csdn.net/hellozpc/article/details/81436980
+erlang官网    https://www.erlang.org/downloads
+rabbitmq官网  https://www.rabbitmq.com/download.html
 ```
 

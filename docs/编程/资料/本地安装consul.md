@@ -16,7 +16,6 @@ categories:
 
 - 在分布式服务发现的软件中，Euerka 和 Consul 使用最为广泛。
 
-
 `--20210514`
 
 ---
@@ -37,6 +36,8 @@ consul agent -dev        # -dev表示开发模式运行，另外还有-server表
 consul agent -dev
 pause
 ```
+
+---
 
 - 2、验证
 
