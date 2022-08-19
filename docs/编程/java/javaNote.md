@@ -456,6 +456,7 @@ Project - Show Options Menu - Show Members
 idea常用插件 File -- Settings -- Plugins
 lombok
 Free Mybatis plugin    MybatisX
+GenerateAllSetter      Alt+Enter
 Spring Assistant 
 Translation
 
@@ -666,7 +667,7 @@ maven常用打包命令
 
 | 无为徐生   | 微信公众号                                               	 |  &ensp; |  今日头条号        |
 | ---------  | ------------------------------------------------------------- |  -      |  ----------        |
-|  二维码    | ![w]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/wuweixusheng_weixin.png ) | <br/> | ![t]( https://xyqin.coding.net/p/my/d/imgs/git/raw/master/other/wuweixusheng_toutiao.png )     |
+|  二维码    | ![w]( https://md.xushufa.cn/gitimg/imgs/other/wuweixusheng_weixin.png ) | <br/> | ![t]( https://md.xushufa.cn/gitimg/imgs/other/wuweixusheng_toutiao.png )     |
 
 ***
 
