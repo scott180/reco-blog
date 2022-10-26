@@ -4,6 +4,9 @@ date: 2022-10-26
 tags:
  - c盘
  - 垃圾文件清理
+ - pagefile
+ - FolderSize
+ - SystemVolumeInformation
 categories:
  - 编程
 ---

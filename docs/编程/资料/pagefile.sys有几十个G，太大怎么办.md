@@ -2,7 +2,8 @@
 title: pagefile.sys有几十个G，太大怎么办
 date: 2022-06-24
 tags:
- - 编程
+ - c盘
+ - 垃圾文件清理
  - pagefile
 categories:
  - 编程
