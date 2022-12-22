@@ -13,7 +13,8 @@ categories:
 
 <br />
 
-## 1.配置文件
+## 1 配置文件
+
 ```xml
 新建java project 导入jar  写配置文件
 
@@ -167,7 +168,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 </configuration>
 ```
 
-## 2.SqlSession
+## 2 SqlSession
 
 ``` 
 SqlSession
@@ -313,7 +314,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
  </mapper>
 ```
 
-## 3.一对多查询
+## 3 一对多查询
 
 ```xml
  <!-- user-orders 一对一查询，association -->
@@ -374,7 +375,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 </resultMap>
 ```
 
-## 4.缓存
+## 4 缓存
 
 ```
 <!-- 延迟加载 -->
