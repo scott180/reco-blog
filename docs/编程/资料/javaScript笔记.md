@@ -33,9 +33,9 @@ $.fn.validatebox.defaults.rules.email.message = '请输入有效的<br/>电子�
 
 
 alert回调
- $.messager.alert("提示:", msg, "info",function(){
-		  $('#userDeptEmailFrom').focus();
-	 });
+$.messager.alert("提示:", msg, "info",function(){
+	  $('#userDeptEmailFrom').focus();
+ });
 
 
 
@@ -45,11 +45,11 @@ alert回调
 },1000);
 
 
-// 定时
+定时
 setTimeout(function(){
-			  init();
-			  layer.close(loading);  
-		  },500);
+   init();
+   layer.close(loading);  
+},500);
 		  
 		  
 
