@@ -10,7 +10,7 @@ categories:
  - 编程
 ---
 
-`网址` &ensp; [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://blog.xushufa.cn )
+`网址` &ensp; [xushufa]( https://xushufa.cn ) &ensp; [blog]( https://scott180.github.io/vuepress-blog )
 
 ## 本地安装
 
