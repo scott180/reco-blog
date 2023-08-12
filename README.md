@@ -1,27 +1,22 @@
----
-home: true
-heroText: 无为徐生
-tagline: 生活随笔-编程笔记-书法练习轨迹
-# heroImage: /hero.png
-# heroImageStyle: {
-#   maxWidth: '600px',
-#   width: '100%',
-#   display: block,
-#   margin: '9rem auto 2rem',
-#   background: '#fff',
-#   borderRadius: '1rem',
-# }
-bgImageStyle: {
-  height: '450px'
-}
-isShowTitleInHome: false
-actionText: Guide
-actionLink: /views/other/guide
-features:
-- title: Yesterday
-  details: 开发一款看着开心、写着顺手的 vuepress 博客主题
-- title: Today
-  details: 希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上
-- title: Tomorrow
-  details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
----
+
+使用vuepress-theme-reco构建的个人博客项目
+
+<br/>
+
+**生活随笔-编程笔记-书法练习轨迹**
+
+| 徐书法 | 地址        |  备注          |
+| -----  | ----------- |  ------------- |
+| 1      | [xushufa]( https://xushufa.cn )                  	    | `vuepress-theme-reco`构建的博客网站。|
+| 2      | [vuepress-blog]( https://vuepress-blog.xushufa.cn )  	| `vuepress`构建的博客网站。           |
+| 3      | [mkdocs-blog]( https://xuyq123.gitlab.io/mkdocs-blog )   | `mkdocs`构建的博客网站。             |
+
+<br/>
+
+**git仓库平台保存文件与图片**
+
+| 序号  | 平台    | 地址        |  备注          |
+| ----- | -----   | ----------- |  ------------- |
+| 1     | gitlab  | [MyNotes]( https://gitlab.com/xuyq123/mynotes )                  | 编程笔记   |
+| 2     | github  | [reco-blog]( https://github.com/scott180/reco-blog )  			 | 博客网站   |
+| 3     | gitcode | [document]( https://gitcode.net/xu180/document )  				 | 生活随笔   |
