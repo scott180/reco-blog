@@ -81,7 +81,7 @@ module.exports = {
           { text: 'mysqlNote', link: '/docs/编程/数据库/mysqlNote'}, 
           { text: 'oracleNote', link: '/docs/编程/数据库/oracleNote'}, 
           { text: 'javaScript笔记', link: '/docs/编程/资料/javaScript笔记'}, 
-          { text: '本地安装zookeeper', link: '/docs/编程/资料/本地安装zookeeper'}, 
+          { text: '工具网站readMe', link: '/docs/编程/资料/工具网站readMe'}, 
         ]		
       },
 	  {
@@ -124,6 +124,8 @@ module.exports = {
                 {title:'二十四式太极拳',path:'随笔/二十四式太极拳'},
                 {title:'短期远行必备物品',path:'随笔/短期远行必备物品'},
                 {title:'我的原神旅行观测记录',path:'随笔/我的原神旅行观测记录'},
+                {title:'纪念一下，三百天打满深渊',path:'随笔/纪念一下，三百天打满深渊'},
+                {title:'原神历史版本祈愿up活动速递',path:'随笔/原神历史版本祈愿up活动速递'},
               ]					
             },
 			{
@@ -132,6 +134,7 @@ module.exports = {
 			  sidebarDepth: 2,   // 可选的, 默认值是 1
 			  children: [
 				{title:'如何练好书法',path:'文档/如何练好书法'},
+				{title:'三千个脑筋急转弯',path:'文档/三千个脑筋急转弯'},
 				{title:'文言文翻译网络流行语',path:'文档/文言文翻译网络流行语'},
 				{title:'安徽电信免费流量获取方法',path:'文档/安徽电信免费流量获取方法'},
 				{title:'安徽电信-流量来啦-每日必点',path:'文档/安徽电信-流量来啦-每日必点'},
@@ -175,6 +178,7 @@ module.exports = {
 				{title:'gitbook部署博客',path:'运维/gitbook部署博客'},
 				{title:'vuepress构建项目',path:'运维/vuepress构建项目'},
 				{title:'批量推送布署徐书法项目',path:'运维/批量推送布署徐书法项目'},
+				{title:'markdown静态博客搭建综述',path:'运维/markdown静态博客搭建综述'},
 				{title:'gitlab、github绑定自定义域名',path:'运维/gitlab、github绑定自定义域名'},
 				{title:'git平台docsify布署markdown文件',path:'运维/git平台docsify布署markdown文件'},
 				{title:'gitlab、github、gitee布署mkdocs主题仓库',path:'运维/gitlab、github、gitee布署mkdocs主题仓库'},
@@ -199,7 +203,8 @@ module.exports = {
 			  collapsable: true, // 可选的, 默认值是 true,
 			  sidebarDepth: 2,   // 可选的, 默认值是 1
 			  children: [
-				{title:'npm笔记',path:'资料/npm笔记'},
+				{title:'工具网站readMe',path:'资料/工具网站readMe'},
+				{title:'nodejs与npm笔记',path:'资料/nodejs与npm笔记'},
 				{title:'jquery笔记',path:'资料/jquery笔记'},
 				{title:'二进制数负数',path:'资料/二进制数负数'},
 				{title:'javaScript笔记',path:'资料/javaScript笔记'},
@@ -209,6 +214,7 @@ module.exports = {
 				{title:'markdown常用语法',path:'资料/markdown常用语法'},
 				{title:'window安装RabbitMQ',path:'资料/window安装RabbitMQ'},
 				{title:'markdown导出pdf方法优劣分析',path:'资料/markdown导出pdf方法优劣分析'},
+				{title:'十大git仓库平台保存文件与图片',path:'资料/十大git仓库平台保存文件与图片'},
 				{title:'系统磁盘c盘清理垃圾文件方法一览',path:'资料/系统磁盘c盘清理垃圾文件方法一览'},
 				{title:'pagefile.sys有几十个G，太大怎么办',path:'资料/pagefile.sys有几十个G，太大怎么办'},
 			  ]
