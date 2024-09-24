@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "无为徐生",
+  "title": "书法练习",
   "description": "",
   //"base": '/reco-blog/',
   "dest": ".vuepress/dist",
@@ -329,7 +329,7 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-	  title: '无为徐生',
+	  title: '书法练习',
       description: '',
     }
   }
