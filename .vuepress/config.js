@@ -22,7 +22,7 @@ module.exports = {
   "theme": "reco",
   "themeConfig": {
 	valineConfig: {
-		appId: 'In1BQCN8XdwnYBgPYnSi4r1W-gzGzoHsz',// your appId
+		appId: 'In1BQCN8XdwnYBgPYnSi4r1W-gzGzoHsz',// your appId u
 		appKey: 'nVqtDyPE9OClqUri8YcHyRaR',// your appKey
 		visitor: true,
 		showComment: false,
