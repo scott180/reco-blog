@@ -1,7 +1,7 @@
 module.exports = {
-  "title": "书法练习",
+  "title": "无为徐生",
   "description": "",
-  //"base": '/reco-blog/',
+  "base": '/reco-blog/',
   "dest": ".vuepress/dist",
   "head": [
     [
@@ -284,7 +284,7 @@ module.exports = {
         "title": "无为徐生",
         "desc": "人情必有所寄，习惯而成自然。",
         "email": "1021151991@qq.com",
-        "link": "https://xushufa.cn"
+        "link": "https://github.com/scott180/reco-blog"
       },
       {
         "title": "reco-blog",
@@ -299,10 +299,10 @@ module.exports = {
     "lastUpdated": "最近更新",
     "author": "无为徐生",
     "authorAvatar": "/template.png",
-	record: '浙ICP备2022008289号-1',
-    recordLink: 'http://beian.miit.gov.cn',
-    cyberSecurityRecord: '浙公网安备 33011002016354号',
-    cyberSecurityLink: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002016354',
+	record: '',
+    recordLink: '',
+    cyberSecurityRecord: '',
+    cyberSecurityLink: '',
     startYear: '2022'
   },
   "markdown": {
@@ -335,7 +335,7 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-	  title: '书法练习',
+	  title: '无为徐生',
       description: '',
     }
   }
