@@ -9,7 +9,7 @@ categories:
 ---
 
 ## 序
-[blog]( https://xushufa.cn )  &ensp; [gitlab]( https://gitlab.com/xuyq123/mynotes )  &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) &ensp; [github]( https://github.com/scott180 ) &ensp; [csdn]( https://blog.csdn.net/xu180 ) &ensp;  [stackoverflow]( https://stackoverflow.com/questions/tagged/java ) &ensp; [segmentfault]( https://segmentfault.com/ )
+[gitlab]( https://gitlab.com/xuyq123/mynotes )  &ensp; [gitee]( https://gitee.com/xy180/MyNotes ) &ensp; [github]( https://github.com/scott180 ) &ensp; [csdn]( https://blog.csdn.net/xu180 ) &ensp;  [stackoverflow]( https://stackoverflow.com/questions/tagged/java ) &ensp; [segmentfault]( https://segmentfault.com/ )
 
 
 ## 1、java
@@ -421,7 +421,6 @@ https://www.zhipin.com/job_detail/3e798a7a9d5192113nV-3NS1EVU~.html?ka=search_li
 ```
 
 ---
-
 
 
 

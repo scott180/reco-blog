@@ -27,6 +27,5 @@ categories:
 | 12     | [mpeditor]( https://scott180.github.io/tool/markdown-mpeditor )    | 专注于微信公众号的编辑阅读器          |
 |        | 项目布署                                                   |                                       |
 | 13     | [tool]( https://github.com/scott180/tool )                 | github仓库                            |
-| 14     | [blog]( https://scott180.github.io/reco-blog )          | 个人网站                              |
-
+| 14     | [blog]( https://scott180.github.io/reco-blog )             | 个人网站                              |
 
