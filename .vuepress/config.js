@@ -62,6 +62,7 @@ module.exports = {
         "icon": "reco-document",
         "items": [
 	      { text: '日常Note', link: '/docs/生活/随笔/日常Note'}, 
+	      { text: '诗文浅作', link: '/docs/生活/随笔/诗文浅作'}, 
 	      { text: '驾考记事', link: '/docs/生活/随笔/驾考记事'}, 
 	      { text: '健身与学习', link: '/docs/生活/随笔/健身与学习'}, 
 	      { text: '吉他练习笔记', link: '/docs/生活/随笔/吉他练习笔记'}, 
@@ -118,6 +119,7 @@ module.exports = {
               sidebarDepth: 2,   // 可选的, 默认值是 1
               children: [
                 {title:'日常Note',path:'随笔/日常Note'},
+                {title:'诗文浅作',path:'随笔/诗文浅作'},
                 {title:'驾考记事',path:'随笔/驾考记事'},
                 {title:'健身与学习',path:'随笔/健身与学习'},
                 {title:'吉他练习笔记',path:'随笔/吉他练习笔记'},

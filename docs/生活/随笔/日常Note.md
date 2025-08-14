@@ -16,7 +16,7 @@ categories:
 <br />
 
 
-##  1、文件操作
+## 1、文件操作
 
 ### 1.1、windows常用快捷键
 
@@ -140,8 +140,8 @@ gitlab    https://gitlab.com/-/ide/project/gitlab-org/gitlab/edit/master/-/doc/u
 
 
 markdown软件
-typora	https://www.typora.io/
-Dillinger https://dillinger.io/
+typora		https://www.typora.io/
+Dillinger 	https://dillinger.io/
 https://blog.csdn.net/davidhzq/article/details/100815332
 
 ```
@@ -172,7 +172,7 @@ markdown表格宽度设置
 
 ```
 gitlab、github、gitee布署mkdocs主题仓库
-https://gitlab.com/xuyq123/mynotes
+	https://gitlab.com/xuyq123/mynotes
 
 gitlab mkdocs主题仓库   
 	https://gitlab.com/xuyq123/plain-mkdocs   
@@ -184,7 +184,7 @@ gitlab mkdocs主题仓库
 ---	
 	
 git平台docsify布署markdown文件
-https://github.com/scott180/MyNotes
+	https://github.com/scott180/MyNotes
 
 gitlab docsify主题仓库 	
 	https://gitlab.com/xuyq123/plain-docsify 
@@ -197,19 +197,67 @@ gitlab docsify主题仓库
 
 <br/>
 
-### 1.5、部署网站
+### 1.5、bat脚本
+
+```
+具有 .bat 文件扩展名的文件是 Windows 批处理文件。它是一个纯文本文件，包含用于重复任务或逐个运行脚本组的各种命令。
+所有类型的软件都将 bat 文件用于各种目的，例如复制或删除文件、运行应用程序以及关闭进程。
+下面是 bat 文件的另一个示例，该文件使用 ping 命令来查看计算机是否可以访问具有该特定 IP 地址的路由器：
+
+ping 192.168.1.1
+pause
+
+```
+
+```java
+Win+R		打开运行-输入命令开启相关功能
+cmd			命令行控制台
 
 
-| 序号  | 平台    | 仓库地址    |  git静态页面   |  说明 |
-| ----- | -----   | ----------- |  ------------- |  ---- |
-| 1     | github  | [**reco-blog**]( https://github.com/scott180/reco-blog )  	      | [github.io/reco-blog]( https://scott180.github.io/reco-blog )         |  vuepress-reco部署网站 |
-| 2     | github  | [**vuepress-blog**]( https://github.com/scott180/vuepress-blog )  | [github.io/vuepress-blog]( https://scott180.github.io/vuepress-blog ) |  vuepress部署网站      |
-| 3     | github  | [blog]( https://github.com/scott180/blog )  					  | [github.io/blog]( https://scott180.github.io/blog )   				  |  vuepress部署网站      |
-| 4     | github  | [tool]( https://github.com/scott180/tool )  	 				  | [github.io/tool]( https://scott180.github.io/tool )                   |  工具网站              |
-| 5     | github  | [docsify-blog]( https://github.com/scott180/docsify-blog )  	  | [github.io/docsify]( https://scott180.github.io/docsify-blog/ )       |  docsify部署网站       |
-| 6     | **github**  | [gitbook-blog]( https://github.com/scott180/gitbook-blog )    | [github.io/gitbook]( https://scott180.github.io/gitbook-blog )        |  gitbook部署网站 |
-| 7     | gitlab      | [mkdocs-blog]( https://gitlab.com/xuyq123/mkdocs-blog ) | [gitlab.io/mkdocs]( https://xuyq123.gitlab.io/mkdocs-blog )                 | mkdocs部署网站  |
-| 8     | gitlab      | [**MyNotes**]( https://gitlab.com/xuyq123/mynotes )     | [files]( https://gitlab.com/xuyq123/mynotes/-/blob/master/%E6%96%87%E6%A1%A3%E7%9B%AE%E5%BD%95.md )              |  **编程笔记** |
+Windows批处理(cmd/bat)常用命令
+https://www.cnblogs.com/hwrex/p/18663235
+https://www.cnblogs.com/xpwi/p/9626959.html
+
+cd 	显示当前目录名或改变当前目录
+md 	创建目录
+dir 显示目录中的文件和子目录列表
+
+echo 		显示消息或开启/关闭回显
+pause		暂停并等待用户按键
+ipconfig	显示、修改TCP/IP设置
+
+```
+
+```c
+:: StartRedis.bat
+echo "启动redis"
+D: & cd D:\ProgramFiles\Redis-x64-3.2.100
+redis-server.exe redis.windows.conf
+```
+
+
+```c
+echo "启动Ollama"
+cd C:\Users\Administrator\AppData\Local\Programs\Ollama
+Start ollama
+```
+
+<br/>
+
+
+### 1.6、部署网站
+
+
+| 序号  | 平台        | 仓库地址    |  git静态页面   |  说明 |
+| ----- | -----       | ----------- |  ------------- |  ---- |
+| 1     | github      | [**reco-blog**]( https://github.com/scott180/reco-blog )  	      | [github.io/reco-blog]( https://scott180.github.io/reco-blog )         |  vuepress-reco部署网站 |
+| 2     | github      | [**vuepress-blog**]( https://github.com/scott180/vuepress-blog )  | [github.io/vuepress-blog]( https://scott180.github.io/vuepress-blog ) |  vuepress部署网站      |
+| 3     | github      | [blog]( https://github.com/scott180/blog )  					  | [github.io/blog]( https://scott180.github.io/blog )   				  |  vuepress部署网站      |
+| 4     | github      | [tool]( https://github.com/scott180/tool )  	 				  | [github.io/tool]( https://scott180.github.io/tool )                   |  工具网站              |
+| 5     | github      | [docsify-blog]( https://github.com/scott180/docsify-blog )  	  | [github.io/docsify]( https://scott180.github.io/docsify-blog/ )       |  docsify部署网站       |
+| 6     | github      | [gitbook-blog]( https://github.com/scott180/gitbook-blog )        | [github.io/gitbook]( https://scott180.github.io/gitbook-blog )        |  gitbook部署网站       |
+| 7     | gitlab      | [mkdocs-blog]( https://gitlab.com/xuyq123/mkdocs-blog ) | [gitlab.io/mkdocs]( https://xuyq123.gitlab.io/mkdocs-blog )                     |  mkdocs部署网站        |
+| 8     | **gitlab**  | [**MyNotes**]( https://gitlab.com/xuyq123/mynotes )     | [files]( https://gitlab.com/xuyq123/mynotes/-/blob/master/%E6%96%87%E6%A1%A3%E7%9B%AE%E5%BD%95.md )              |  **编程笔记** |
 | 9     | gitcode     | [**document**]( https://gitcode.net/xu180/document )  	| [note]( https://gitcode.net/xu180/document/-/blob/master/article/%E9%9A%8F%E7%AC%94/%E6%97%A5%E5%B8%B8Note.md )  |  生活随笔     |
 | 10    | npm         | [xushufa]( https://www.npmjs.com/~xushufa )             | [img]( https://cdn.jsdelivr.net/npm/xushufa-shu/yan/duo1-1000/0001大.jpg ) 	                                   |  资料管理     |
 | 11    | bitbucket   | [**imgs**]( https://bitbucket.org/xu12345/document/src/master/imgs/ )    | [img]( https://bitbucket.org/xu12345/document/raw/87e65566e45e063244eab491abe2dab0f43de59d/imgs/shufa/%E7%8E%8B%E7%BE%B2%E4%B9%8B-%E5%85%B0%E4%BA%AD%E9%9B%86%E5%BA%8F.jpg )  | 图片仓库   |
@@ -747,23 +795,24 @@ http://localhost:8080/druid/sql.html
 
 | 序号   | 地址        |  备注          |
 | -----  | ----------- |  ------------- |
-| 1      | [json]( https://scott180.github.io/tool/json )                     | json 格式化工具             |
-| 2      | [yaml解析]( https://scott180.github.io/tool/yaml-parse )           | yaml解析为json              |
-| 3      | [Json2Excel]( https://scott180.github.io/tool/Json2Excel )         | Json转Excel文件             |
-| 4      | [时间毫秒值转换]( https://scott180.github.io/tool/time-format )    | 时间毫秒值转换              |
-|        | 解码编码                                                   |                             |
-| 5      | [url解码]( https://scott180.github.io/tool/url-encode )            | url解码编码                 |
-| 6      | [unicode解码]( https://scott180.github.io/tool/unicode-encode )    | unicode解码编码             |
-| 7      | [文字转二维码]( https://scott180.github.io/tool/words-QRcode )     | 文字转二维码                |
-| 8      | [二维码生成扫描识别]( https://scott180.github.io/tool/HtmlQRCode ) | 二维码生成扫描识别          |
-|        | markdown                                                   |                             |
-| 9      | [md2wx]( https://scott180.github.io/tool/md2wx/docs )              | 在线Markdown微信格式化工具            |
-| 10     | [editormd]( https://scott180.github.io/tool/markdown-editormd )    | 开源的、可嵌入的 Markdown 在线编辑器  |
-| 11     | [markthing]( https://scott180.github.io/tool/markdown-markthing )  | 一个MarkDown编辑器                    |
-| 12     | [mpeditor]( https://scott180.github.io/tool/markdown-mpeditor )    | 专注于微信公众号的编辑阅读器          |
-|        | 项目布署                                                   |                                       |
-| 13     | [tool]( https://github.com/scott180/tool )                 | github仓库                            |
-| 14     | [blog]( https://scott180.github.io/reco-blog )             | 个人网站                              |
+| 1      | [json]( https://scott180.github.io/tool/json )                     | json 格式化工具             			|
+| 2      | [yaml解析]( https://scott180.github.io/tool/yaml-parse )           | yaml解析为json              			|
+| 3      | [Json2Excel]( https://scott180.github.io/tool/Json2Excel )         | Json转Excel文件             			|
+| 4      | [时间毫秒值转换]( https://scott180.github.io/tool/time-format )    | 时间毫秒值转换              			|
+| 5      | [sql转驼峰字段]( https://scott180.github.io/tool/sql2javaFiled )   | sql转java驼峰字段            			|
+|        | 解码编码                                                   		  |                             			|
+| 6      | [url解码]( https://scott180.github.io/tool/url-encode )            | url解码编码                 			|
+| 7      | [unicode解码]( https://scott180.github.io/tool/unicode-encode )    | unicode解码编码             			|
+| 8      | [文字转二维码]( https://scott180.github.io/tool/words-QRcode )     | 文字转二维码                			|
+| 9      | [二维码生成扫描识别]( https://scott180.github.io/tool/HtmlQRCode ) | 二维码生成扫描识别          			|
+|        | markdown                                                           |                             			|
+| 10      | [md2wx]( https://scott180.github.io/tool/md2wx/docs )             | 在线Markdown微信格式化工具              |
+| 11     | [editormd]( https://scott180.github.io/tool/markdown-editormd )    | 开源的、可嵌入的 Markdown 在线编辑器    |
+| 12     | [markthing]( https://scott180.github.io/tool/markdown-markthing )  | 一个MarkDown编辑器                      |
+| 13     | [mpeditor]( https://scott180.github.io/tool/markdown-mpeditor )    | 专注于微信公众号的编辑阅读器            |
+|        | 项目布署                                                           |                                         |
+| 14     | [tool]( https://github.com/scott180/tool )                         | github仓库                              |
+| 15     | [note]( https://gitlab.com/xuyq123/mynotes )                       | 个人笔记                                |
 
 
 *************************
